@@ -1,0 +1,116 @@
+ <!-- <div class="card item-img bg-primary" style="width: 18rem;">
+            <h3>hello</h3>
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg> -->
+            <img class="foodimg" src="https://media.istockphoto.com/id/184973821/photo/pizza-inferno.jpg?s=612x612&w=0&k=20&c=NzVVfFE_FAkqpQS2p_ht11yH02n3iQ7-hgNF0jWQMFQ=" alt="">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card item-img bg-primary" style="width: 18rem;">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg> -->
+            <img src="https://www.bacinos.com/wp-content/uploads/2021/06/31-Best-Mushroom-Pizza-Recipes.jpg" alt="" class="foodimg">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <br>
+          <div class="card item-img" style="width: 18rem;">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card item-img" style="width: 18rem;">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card item-img" style="width: 18rem;">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+
+
+          
+
+          #####################################
+
+           <div class="card item-img bg-primary" style="width: 18rem; ">
+          <span class="badge "><i class="fa-solid fa-star"></i> 4.7</span>
+          <span class="badge like-btn"><i class="fa-regular fa-heart"></i></span>
+            <!-- <svg class="bd-placeholder-img card-img-top foodimg" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg> -->
+            <img class="foodimg" src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipemediafiles/recipes/retail/desktopimages/2018_bacon-and-egg-breakfast-pizza_26483-600.jpg?ext=.jpg" alt="">
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <h4>Bacon Pizza</h3>
+                <h5>Price : $ 44</h5>
+            </div>
+          </div>
+       
+
+     
+        <div class="card item-img bg-primary" style="width: 18rem; ">
+          <span class="badge "><i class="fa-solid fa-star"></i> 3.9</span>
+          <span class="badge like-btn"><i class="fa-regular fa-heart"></i></span>
+            <!-- <svg class="bd-placeholder-img card-img-top foodimg" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg> -->
+            <img class="foodimg" src="https://media.istockphoto.com/id/184973821/photo/pizza-inferno.jpg?s=612x612&w=0&k=20&c=NzVVfFE_FAkqpQS2p_ht11yH02n3iQ7-hgNF0jWQMFQ=" alt="">
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <h4>Chillipaper Pizza</h3>
+                <h5>Price : $ 47</h5>
+                </div>
+            </div>
+          
+          
+        <div class="card item-img bg-primary" style="width: 18rem; ">
+          <span class="badge "><i class="fa-solid fa-star"></i> 4.3</span>
+          <span class="badge like-btn"><i class="fa-regular fa-heart"></i></span>
+            <!-- <svg class="bd-placeholder-img card-img-top foodimg" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg> -->
+            <img class="foodimg" src="https://mission-food.com/wp-content/uploads/2023/07/Pizza-Marinara-Featured.jpg" alt="">
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <h4>Marinara Pizza</h3>
+                <h5>Price : $ 30</h5>
+            </div>
+          </div>
+          <br>
+          
+        <div class="card item-img bg-primary" style="width: 18rem; ">
+          <span class="badge "><i class="fa-solid fa-star"></i> 4.8</span>
+          <span class="badge like-btn"><i class="fa-regular fa-heart"></i></span>
+            <!-- <svg class="bd-placeholder-img card-img-top foodimg" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg> -->
+            <img class="foodimg" src="https://www.italianfoodforever.com/wp-content/uploads/2015/11/buratapizza.jpg" alt="">
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <h4>Mozzarella Pizza</h3>
+                <h5>Price : $ 46</h5>
+            </div>
+          </div>
+          
+        <div class="card item-img bg-primary" style="width: 18rem; ">
+          <span class="badge "><i class="fa-solid fa-star"></i> 4.2</span>
+          <span class="badge like-btn"><i class="fa-regular fa-heart"></i></span>
+            <!-- <svg class="bd-placeholder-img card-img-top foodimg" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg> -->
+            <img class="foodimg" src="https://www.bacinos.com/wp-content/uploads/2021/06/31-Best-Mushroom-Pizza-Recipes.jpg" alt="">
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <h4>Mushroom Pizza</h3>
+                <h5>Price : $ 32</h5>
+            </div>
+          </div>
+          
+        <div class="card item-img bg-primary" style="width: 18rem; ">
+          <span class="badge "><i class="fa-solid fa-star"></i> 4.0</span>
+          <span class="badge like-btn"><i class="fa-regular fa-heart"></i></span>
+            <!-- <svg class="bd-placeholder-img card-img-top foodimg" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg> -->
+            <img class="foodimg" src="https://www.the-girl-who-ate-everything.com/wp-content/uploads/2018/06/taco-pizza-recipe-003.jpg" alt="">
+            <div class="card-body">
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <h4>Mexican Pizza</h3>
+                <h5>Price : $ 40</h5>
+            </div>
+          </div> 
