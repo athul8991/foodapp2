@@ -53,6 +53,15 @@ const foodData =[
         rating:3.0,
         imgSrc:'https://www.bacinos.com/wp-content/uploads/2021/06/31-Best-Mushroom-Pizza-Recipes.jpg'
 
+    },
+    {
+        id:7,
+        name:"Somthing Pizza",
+        price:41,
+        category:"Pizza",
+        rating:3.0,
+        imgSrc:'https://www.bacinos.com/wp-content/uploads/2021/06/31-Best-Mushroom-Pizza-Recipes.jpg'
+
     }
 ];
 
