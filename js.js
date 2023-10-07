@@ -102,6 +102,7 @@ function showCart(e){
   if(foodRoot.style.display =='block'){
     cartRoot.style.display ='block'; 
     foodRoot.style.display ='none';
+    itemsBtn.innerHTML=`Home`;
     cartRoot.innerHTML='';
     cartItem.forEach(id =>{
       let items;
@@ -115,6 +116,7 @@ function showCart(e){
   }else{
     foodRoot.style.display ='block';
     cartRoot.style.display ='none';
+    itemsBtn.innerHTML =`<i class="fa-solid fa-cart-plus item"></i> Items`;
   }
 }
 
