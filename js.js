@@ -1,13 +1,41 @@
  import {foodData} from './data.js';
 
+ const pizzaData = foodData.filter(data=>data.category =='Pizza');
+ const biriyaniData =foodData.filter(data=>data.category =='biriyani');
+ const mandiData = foodData.filter(data=>data.category =='mandi');
+ const snackData =foodData.filter(data=>data.category =='snaks');
+ const curryData =foodData.filter(data=>data.category =='curry');
+ const vegData = foodData.filter(data=>data.category=='veg');
+ const drinkData = foodData.filter(data=>data.category=='drinks');
+
  const pizzaRoot = document.querySelector('#pizzaContainer');
+ const mandiRoot =document.querySelector('#mandiContainer');
+ const biriyaniRoot =document.querySelector('#biriyaniContainer');
+ const vegRoot =document.querySelector('#vegContainer');
+ const curryRoot =document.querySelector('#curryContainer');
+ const snackRoot =document.querySelector('#snaksContainer');
+ const drinkRoot =document.querySelector('#drinksContainer');
+
  const cartRoot =document.querySelector('#cartContainer');
+ const foodRoot = document.querySelector('#foodContainer');
+
  const itemsBtn =document.querySelector('#items');
  itemsBtn.addEventListener('click',showCart);
- let cartItem =[]
- function displayData(){
-    foodData.forEach((item,key)=>{
-        let newPizza = `<div class="card item-img bg-primary" style="width: 18rem; ">
+
+ let cartItem =[];
+
+ displayData(pizzaData,pizzaRoot);
+ displayData(biriyaniData,biriyaniRoot);
+ displayData(mandiData,mandiRoot);
+ displayData(snackData,snackRoot)
+ displayData(vegData,vegRoot);
+ displayData(curryData,curryRoot);
+ displayData(drinkData,drinkRoot);
+
+
+ function displayData(data,root){
+    data.forEach((item,key)=>{
+        let newData = `<div class="card item-img bg-primary" style="width: 18rem; ">
         <span class="badge "><i class="fa-solid fa-star"></i> ${item.rating}</span>
         <span class="badge like-btn" id =${item.id}><i class="fa-regular fa-heart"></i></span>
           <!-- <svg class="bd-placeholder-img card-img-top foodimg" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg> -->
@@ -19,7 +47,7 @@
           </div>
         </div>`;
 
-        pizzaRoot.innerHTML += newPizza;
+        root.innerHTML += newData;
     });
     const likebtn = document.getElementsByClassName('like-btn');
 
@@ -29,9 +57,9 @@
       for(let element of likebtn){
         element.addEventListener('click',cartFunction)
       }
+ }
 }
-    
-}
+displayData();
 
 function cartFunction(e){
     const el =e.target;
@@ -71,12 +99,15 @@ function removeItem (el){
 
 
 function showCart(e){
-  pizzaRoot.style.display ='none';
-  cartRoot.style.display='inline-block'
-  
-
-
+  if(foodRoot.style.display =='block'){
+    cartRoot.style.display ='block'; 
+    foodRoot.style.display ='none';
+    
+  }else{
+    foodRoot.style.display ='block';
+    cartRoot.style.display ='none';
+  }
 }
 
 
- displayData();
+

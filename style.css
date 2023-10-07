@@ -179,13 +179,18 @@ p a img{
   overflow: auto;
   height: calc(100vh - 86px);
 }
-/* #pizzaContainer{
-  /* width: 82%; */
-  /* background: red; 
-} */
+
 ::-webkit-scrollbar{
   display: none;
 }
+.food-items{
+  margin-top: 10px;
+
+}
+.food-items h1{
+  text-decoration: underline;
+}
+
 .sm-food{
   display: block;
   /* text-align: center; */
