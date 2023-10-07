@@ -113,11 +113,18 @@ a:hover{
   margin: auto;
   display: block;
   height: 130px;
+  border: 3px solid white;
 }
 .item-img{
   background:rgb(255, 224, 229);
-  /* text-align: center; */
+  /* border: 1px solid white; */
 
+}
+#vegContainer .item-img{
+  background: rgb(222, 251, 222);
+}
+#drinksContainer .item-img{
+  background: rgb(211, 233, 246);
 }
 
 .badge{

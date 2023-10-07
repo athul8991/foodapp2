@@ -283,5 +283,4 @@ const foodData =[
         imgSrc:'https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/646c88b374c4c6f89db63d51/pineapple-drink-1--640x640.webp'
       }
 ];
-
-export{foodData};
+export{foodData}

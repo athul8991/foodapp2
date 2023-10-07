@@ -104,12 +104,11 @@ function showCart(e){
     foodRoot.style.display ='none';
     itemsBtn.innerHTML=`Home`;
     cartRoot.innerHTML='';
-    cartItem.forEach(id =>{
+    cartItem.forEach((id) =>{
       let items;
-      console.log(id);
-      const cart = foodData[id];
+      const cart = foodData.filter(item=>item.id==id);
       console.log(cart);
-      items =`<h1>${cart.name}</h1>`;
+      items =`<h1>${cart[0].name}</h1>`;
       cartRoot.innerHTML += items;
 
     })
