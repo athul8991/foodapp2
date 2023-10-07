@@ -87,6 +87,10 @@ a{
 
 .item{
   display:inline-block;
+
+}
+.fa-solid{
+  pointer-events: none;
 }
 
 .item-img{
@@ -171,7 +175,8 @@ p a img{
 }
 #cartContainer{
   display: none;
-  background-color: red;
+  /* background-color: red; */
+  font-size: 20px;
   height: fit-content;
   width: 100%;
 }

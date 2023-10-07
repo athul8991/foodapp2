@@ -59,7 +59,6 @@
       }
  }
 }
-displayData();
 
 function cartFunction(e){
     const el =e.target;
@@ -95,6 +94,7 @@ function removeItem (el){
   let filterCart = cartItem.filter(item=>el.id != item);
   console.log(filterCart);
   cartItem = filterCart;
+  console.log(cartItem);
 }
 
 
@@ -102,7 +102,16 @@ function showCart(e){
   if(foodRoot.style.display =='block'){
     cartRoot.style.display ='block'; 
     foodRoot.style.display ='none';
-    
+    cartRoot.innerHTML='';
+    cartItem.forEach(id =>{
+      let items;
+      console.log(id);
+      const cart = foodData[id];
+      console.log(cart);
+      items =`<h1>${cart.name}</h1>`;
+      cartRoot.innerHTML += items;
+
+    })
   }else{
     foodRoot.style.display ='block';
     cartRoot.style.display ='none';
