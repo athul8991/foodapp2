@@ -15,7 +15,7 @@
           <div class="card-body">
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
             <h4>${item.name}</h3>
-              <h5>Price : $ ${item.price}</h5>
+              <h5>Price : ₹ ${item.price}</h5>
           </div>
         </div>`;
 
