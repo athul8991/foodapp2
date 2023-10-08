@@ -3,7 +3,7 @@
  const pizzaData = foodData.filter(data=>data.category =='Pizza');
  const biriyaniData =foodData.filter(data=>data.category =='biriyani');
  const mandiData = foodData.filter(data=>data.category =='mandi');
- const snackData =foodData.filter(data=>data.category =='snaks');
+ const snackData =foodData.filter(data=>data.category =='snacks');
  const curryData =foodData.filter(data=>data.category =='curry');
  const vegData = foodData.filter(data=>data.category=='veg');
  const drinkData = foodData.filter(data=>data.category=='drinks');
@@ -13,7 +13,7 @@
  const biriyaniRoot =document.querySelector('#biriyaniContainer');
  const vegRoot =document.querySelector('#vegContainer');
  const curryRoot =document.querySelector('#curryContainer');
- const snackRoot =document.querySelector('#snaksContainer');
+ const snackRoot =document.querySelector('#snacksContainer');
  const drinkRoot =document.querySelector('#drinksContainer');
 
  const cartRoot =document.querySelector('#cartContainer');

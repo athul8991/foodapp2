@@ -186,7 +186,7 @@ const foodData =[
         id:22,
         name:"Pzhampori",
         price:10,
-        category:"snaks",
+        category:"snacks",
         rating:4.5,
         imgSrc:'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/sibyl_sunitha/Kerala_Style_Pazham_Pori_Recipe_Banana_Fritters_Recipe_.jpg'
     },
@@ -194,7 +194,7 @@ const foodData =[
         id:23,
         name:"Parippuvada",
         price:10,
-        category:"snaks",
+        category:"snacks",
         rating:4.3,
         imgSrc:'https://1.bp.blogspot.com/-7raQlzIDb5g/XlXdnLhJk-I/AAAAAAAAYaY/nij91baG6QwcjFHqHGmCG6BIgzL3NVwzgCLcBGAsYHQ/s1600/parippu%2Bvada%2B5.JPG'
     },
@@ -202,7 +202,7 @@ const foodData =[
         id:24,
         name:"Ullivada",
         price:10,
-        category:"snaks",
+        category:"snacks",
         rating:4.5,
         imgSrc:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxF3Tgj15dAYSWLqStvgBRp6Z7x4WjxnRqHg&usqp=CAU'
      },
@@ -210,7 +210,7 @@ const foodData =[
         id:25,
         name:"Porotta",
         price:12,
-        category:"snaks",
+        category:"snacks",
         rating:4.5,
         imgSrc:'https://2.bp.blogspot.com/_LiWeVtsgGBw/TJt1bnLa_OI/AAAAAAAAC5o/CUWMl27w1tY/s1600/DSC_0468.JPG'
      },
@@ -218,7 +218,7 @@ const foodData =[
         id:26,
         name:"Pathiri",
         price:12,
-        category:"snaks",
+        category:"snacks",
         rating:4.5,
         imgSrc:'https://cdn1.foodviva.com/static-content/food-images/kerala-recipes/pathiri/pathiri.jpg'
     },
@@ -226,7 +226,7 @@ const foodData =[
         id:27,
         name:"Puttu",
         price:12,
-        category:"snaks",
+        category:"snacks",
         rating:4.5,
         imgSrc:'https://upload.wikimedia.org/wikipedia/commons/c/ca/Puttu_%28Rice_Flour_steamed_cake%29.jpg'
      },
