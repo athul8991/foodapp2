@@ -191,7 +191,7 @@ p a img{
 }
 #foodContainer{
   overflow: auto;
-  height: calc(100vh - 86px);
+  height: calc(100vh - 150px);
 }
 
 ::-webkit-scrollbar{
