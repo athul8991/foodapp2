@@ -137,7 +137,7 @@ function showCart(e){
       }
     }
 
-    totalPrice.textContent =`Total Price : ₹ ${count}`;
+    totalPrice.innerHTML =`Total Price : ₹ <span> ${count}</span>`;
   }else{
     foodRoot.style.display ='block';
     cartRoot.style.display ='none';

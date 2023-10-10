@@ -219,6 +219,12 @@ p a img{
   /* text-align: center; */
 }
 
+#totalPrice{
+  font-weight: 600;
+}
+#totalPrice span{
+  color:#FB9577;
+}
 .cartitem{
 
   height:fit-content;
@@ -250,7 +256,7 @@ p a img{
 }
 .itemname p
 {
-  font-weight: 600;
+  font-weight:bolder;
   color: #807f7f;
   font-size: 15px;
 }
