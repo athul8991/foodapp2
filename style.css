@@ -250,8 +250,12 @@ p a img{
     background: #d06747;
     /* color: #f1f1f1; */
   }
+  .menubutton{
+    text-align: center;
+  }
   .menubutton li{
     display: inline;
+    text-align: center;
   }
   .simplibtn{
     text-align: center;
