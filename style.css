@@ -267,5 +267,30 @@ p a img{
   }
 }
 
+.cartitem{
+
+  height:fit-content;
+  background-color: #f6f6f6;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+.cartitem img {
+  width: 100px;
+  border-radius: 50%;
+}
+.itemname
+{
+  display: inline-block;
+}
+.itemname h4
+{
+  font-weight: 800; 
+  font-size: 25px;
+}
+.itemname p
+{
+  font-weight: 600;
+}
 
 

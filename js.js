@@ -109,9 +109,9 @@ function showCart(e){
     cartRoot.innerHTML='';
     cartItem.forEach((id) =>{
       let items;
-      const cart = foodData.filter(item=>item.id==id);
+      const [cart] = foodData.filter(item=>item.id==id);
       console.log(cart);
-      items =`<h1>${cart[0].name}</h1>`;
+      items =`<h1>${cart.name}</h1>`;
       cartRoot.innerHTML += items;
 
     })
