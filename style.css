@@ -275,6 +275,9 @@ p a img{
     border-radius: 50%;
     margin-left: 10px;
   }
+  .itemname{
+    margin-left: 2px;
+  }
 }
 
 .cartitem{
