@@ -18,10 +18,14 @@
 
  const cartRoot =document.querySelector('#cartContainer');
  cartRoot.style.display='none';
+ const listRoot =document.querySelector('#listContainer');
+
  const foodRoot = document.querySelector('#foodContainer');
 
  const itemsBtn =document.querySelector('#items');
  itemsBtn.addEventListener('click',showCart);
+
+ 
 
  let cartItem =[];
 
@@ -102,24 +106,55 @@ function removeItem (el){
 
 function showCart(e){
   console.log(cartRoot.style.display);
-  if(cartRoot.style.display ==='none'){
+  
+  if(cartRoot.style.display ==='none' || e==true){
     cartRoot.style.display ='block'; 
     foodRoot.style.display ='none';
     itemsBtn.innerHTML=`Home`;
-    cartRoot.innerHTML='';
+    listRoot.innerHTML='';
+    const totalPrice = document.querySelector('#totalPrice');
+    let count =0;
     cartItem.forEach((id) =>{
       let items;
       const [cart] = foodData.filter(item=>item.id==id);
       console.log(cart);
-      items =`<h1>${cart.name}</h1>`;
-      cartRoot.innerHTML += items;
+      count+=cart.price;
+      items =` <div class="cartitem"> 
+      <img src="${cart.imgSrc}" alt="">
+      <div class="itemname">
+      <h4>${cart.name}</h4>
+      <p>Price : ₹ ${cart.price} </p>
+    </div>
+    <button class="delBtn" data-id="${cart.id}">
+    <i class="fa-solid fa-trash" id="delete" ></i>
+  </button>
+  </div>`;
+  listRoot.innerHTML += items;
+    });const delBtn = document.getElementsByClassName('delBtn');
+    if(delBtn){
+      for(let itembtn of delBtn){
+        itembtn.addEventListener('click',deleteItem);
+      }
+    }
 
-    })
+    totalPrice.textContent =`Total Price : ₹ ${count}`;
   }else{
     foodRoot.style.display ='block';
     cartRoot.style.display ='none';
     itemsBtn.innerHTML =`<i class="fa-solid fa-cart-plus item"></i> Items ${cartItem.length}`
   }
+}
+
+function deleteItem(e){
+  const id =e.target.getAttribute("data-id");
+  const el =document.getElementById(id);
+  el.classList.remove("cart");
+  let filterCart = cartItem.filter(item=>id != item);
+  console.log(filterCart);
+  cartItem = filterCart;
+  console.log(cartItem);
+  showCart(true)
+
 }
 
 

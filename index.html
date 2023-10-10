@@ -62,17 +62,19 @@
       <p><a href="#">Checkout</a></p>
     </div>
     <div class="col-md-6 text-left bg_color"> 
+     
       
       <div id="foodContainer" class="displayChangeAn">
-        <div class="cartitem"> 
-          <img src=" https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipemediafiles/recipes/retail/desktopimages/2018_bacon-and-egg-breakfast-pizza_26483-600.jpg?ext=.jpg
-          " alt="">
+        <!-- <div class="cartitem"> 
+          <img src="${cart.imgSrc}" alt="">
           <div class="itemname">
-          <h4>Pizza</h4>
-          <p>price:220</p>
+          <h4>${cart.name}</h4>
+          <p>Price : ₹ ${cart.price} </p>
         </div>
-      </div>
-        
+        <button class="delBtn" data-id="${cart.id}">
+        <i class="fa-solid fa-trash" id="delete" ></i>
+      </button>
+      </div> -->
       <div id="pizzaContainer" class="food-items">
         <h1 class="food sm-food">Pizza</h1>
       </div>
@@ -109,7 +111,10 @@
       </div>
        
        <div id="cartContainer" class="displayChangeAn">
-        hiii
+        <h1 id="totalPrice"></h1>
+        <div id="listContainer">
+
+        </div>
        </div>
 
     </div>
