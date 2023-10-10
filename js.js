@@ -17,6 +17,7 @@
  const drinkRoot =document.querySelector('#drinksContainer');
 
  const cartRoot =document.querySelector('#cartContainer');
+ cartRoot.style.display='none';
  const foodRoot = document.querySelector('#foodContainer');
 
  const itemsBtn =document.querySelector('#items');
@@ -76,7 +77,6 @@ function cartFunction(e){
     
   }else{
    addItem(el);
-   console.log("first add");
   }
   
 }
@@ -99,7 +99,8 @@ function removeItem (el){
 
 
 function showCart(e){
-  if(foodRoot.style.display =='block'){
+  console.log(cartRoot.style.display);
+  if(cartRoot.style.display ==='none'){
     cartRoot.style.display ='block'; 
     foodRoot.style.display ='none';
     itemsBtn.innerHTML=`Home`;
