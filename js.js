@@ -85,6 +85,7 @@ function addItem(el){
   console.log("add");
   el.classList.add("cart");
   cartItem.push(el.id);
+  itemsBtn.innerHTML=`<i class="fa-solid fa-cart-plus item"></i> Items ${cartItem.length}`
   console.log(cartItem);
 }
 
@@ -94,6 +95,7 @@ function removeItem (el){
   let filterCart = cartItem.filter(item=>el.id != item);
   console.log(filterCart);
   cartItem = filterCart;
+  itemsBtn.innerHTML=`<i class="fa-solid fa-cart-plus item"></i> Items ${cartItem.length}`
   console.log(cartItem);
 }
 
@@ -116,7 +118,7 @@ function showCart(e){
   }else{
     foodRoot.style.display ='block';
     cartRoot.style.display ='none';
-    itemsBtn.innerHTML =`<i class="fa-solid fa-cart-plus item"></i> Items`;
+    itemsBtn.innerHTML =`<i class="fa-solid fa-cart-plus item"></i> Items ${cartItem.length}`
   }
 }
 
