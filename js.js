@@ -22,6 +22,7 @@
 
  const foodRoot = document.querySelector('#foodContainer');
 
+ const goForHunt = document.querySelector('#goForHunt');
  const itemsBtn =document.querySelector('#items');
  itemsBtn.addEventListener('click',showCart);
 
@@ -109,6 +110,7 @@ function showCart(e){
   
   if(cartRoot.style.display ==='none' || e==true){
     cartRoot.style.display ='block'; 
+    goForHunt.style.display ='none';
     foodRoot.style.display ='none';
     itemsBtn.innerHTML=`Home`;
     listRoot.innerHTML='';
@@ -140,6 +142,7 @@ function showCart(e){
     totalPrice.innerHTML =`Total Price : ₹ <span> ${count}</span>`;
   }else{
     foodRoot.style.display ='block';
+    goForHunt.style.display='block';
     cartRoot.style.display ='none';
     itemsBtn.innerHTML =`<i class="fa-solid fa-cart-plus item"></i> Items ${cartItem.length}`
   }

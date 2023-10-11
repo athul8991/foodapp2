@@ -193,6 +193,9 @@ p a img{
   height: fit-content;
   width: 100%;
 }
+#cartContainer h1{
+  margin-bottom: 20px;
+}
 #foodContainer{
   display: block;
   overflow: auto;
@@ -221,6 +224,7 @@ p a img{
 
 #totalPrice{
   font-weight: 600;
+  text-align: right;
 }
 #totalPrice span{
   color:#FB9577;
