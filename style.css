@@ -169,10 +169,10 @@ a:hover{
   margin-left:10px ;
 
 }
-.sidenav p a:hover {
+.sidenav p:hover {
   color: black;
 }
-p a img{
+p  img{
   width: 60px;
   height: 60px;
   border-radius: 50%;

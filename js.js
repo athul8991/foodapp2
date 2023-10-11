@@ -25,6 +25,23 @@
  const goForHunt = document.querySelector('#goForHunt');
  const itemsBtn =document.querySelector('#items');
  itemsBtn.addEventListener('click',showCart);
+ const foodSelection = document.querySelectorAll('.foodMenu');
+ console.log(foodSelection);
+ if(foodSelection){
+  for(let item of foodSelection){
+    item.addEventListener('click',selectBg)
+  }
+ }
+
+ function selectBg(e){
+  console.log(e.target);
+  for(let item of foodSelection){
+    item.style.color ='black'
+  }
+  const el = e.target;
+  el.style.color = 'red'
+
+ }
 
  
 
